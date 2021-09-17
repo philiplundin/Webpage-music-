@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local storage</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/registerStyle.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a class="active" href="localstorage.html">Genre</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a>
+    <a href="fetch.html">Other</a>
+</nav>
+<div class="form">
+<form>
+    <h1>Pick you're favorite genre</h1>
+    <label for="genre">Favorite genre</label>
+    <select id="genre" required name="genre">
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="hipHop">Hip Hop</option>
+        <option value="electronic">Electronic</option>
+    </select>
+    <p id="output"></p>
+    <input type="submit" onclick="this.style.visibility = 'hidden'" value="Submit">
+    <div class="localStorageFont">
+    <p>
+    <span id="result"></span></p>
+    <p>
+    <span id="linkResult"></span></p>
+    <p>
+    <span id="refresh"></span></p>
+    </div>
+</form>
+</div>
+<script src="js/localstorage.js"></script>
+</body>
+</html>

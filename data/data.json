@@ -1,0 +1,44 @@
+{
+  "tracks": [
+    {
+      "tracksNum": "1.",
+      "tracksName": "Fight Fire With Fire",
+      "tracksLength": "4:44"
+    },
+    {
+      "tracksNum": "2.",
+      "tracksName": "Ride The Lightning",
+      "tracksLength": "6:36"
+    },
+    {
+      "tracksNum": "3.",
+      "tracksName": "For Whom The Bell Tolls",
+      "tracksLength": "5:10"
+    },
+    {
+      "tracksNum": "4.",
+      "tracksName": "Fade To Black",
+      "tracksLength": "6:56"
+    },
+    {
+      "tracksNum": "5.",
+      "tracksName": "Trapped Under Ice",
+      "tracksLength": "4:03"
+    },
+    {
+      "tracksNum": "6.",
+      "tracksName": "Escape",
+      "tracksLength": "4:23"
+    },
+    {
+      "tracksNum": "7.",
+      "tracksName": "Creeping Death",
+      "tracksLength": "6:36"
+    },
+    {
+      "tracksNum": "8.",
+      "tracksName": "The Call Of Ktulu",
+      "tracksLength": "8:52"
+    }
+  ]
+}

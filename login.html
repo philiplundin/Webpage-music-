@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/registerStyle.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="localstorage.html">Genre</a>
+    <a href="register.html">Register</a>
+    <a class="active" href="login.html">Login</a>
+    <a href="fetch.html">Other</a>
+</nav>
+<div class="formLogin">
+    <h1>Login</h1>
+    <form>
+        <label for="eMail">Email</label>
+        <input type="email" required id="eMail" name="email" placeholder="Email..">
+
+        <label for="password">Password</label>
+        <input type="password" required id="password" name="password" placeholder="Password..">
+
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me?
+        </label>
+
+        <p id="output"></p>
+        <input type="submit" value="Login">
+    </form>
+</div>
+<script src="js/login.js"></script>
+</body>
+</html>
