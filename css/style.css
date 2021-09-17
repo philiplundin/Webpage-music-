@@ -75,6 +75,8 @@ a:hover {
 }
 
 article {
+    display: grid;
+    justify-items: center;
     padding-right: 40px;
     padding-left: 40px;
     padding-top: 5px;
