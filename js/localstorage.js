@@ -34,16 +34,16 @@ function createLink(genre){
 
     if (genre == "pop") {
         link.textContent = 'Billie Eilish - Happier Than Ever'
-        link.href = 'http://localhost:63342/lab1/artist/billieEilish.html';
+        link.href = 'https://philun-iths.github.io/artist/billieEilish.html';
     } else if (genre == "rock") {
         link.textContent = 'Led Zeppelin - IV (Remaster)';
-        link.href = 'http://localhost:63342/lab1/artist/ledZeppelin.html';
+        link.href = 'https://philun-iths.github.io/artist/ledZeppelin.html';
     } else if (genre == "hipHop") {
         link.textContent = 'Drake - Views'
-        link.href = 'http://localhost:63342/lab1/artist/drake.html';
+        link.href = 'https://philun-iths.github.io/artist/drake.html';
     } else if (genre == "electronic") {
         link.textContent = 'Moby - Play'
-        link.href = 'http://localhost:63342/lab1/artist/moby.html';
+        link.href = 'https://philun-iths.github.io/artist/moby.html';
     }
 
     let text = 'Album suggestion for ' + genre;
